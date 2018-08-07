@@ -1,43 +1,45 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Basic
+title: 
+subtitle: 
+description: 欢迎访问我的博客
+# 头像里面的标题
+avatarTitle: cheng
+# 头像里面的描述
+avatarDesc: python/java
+url: "https://strugglecheng.github.io"
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# Comment
+comment:
+    provider: duoshuo
+    duoshuo:
+     short_name: strugglecheng
 
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+baidu:
+    id: 44dcd6189b9c8523c1eb96a0521fcf34 
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #000000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: green 
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}   
+    - {title: 留言, description: liuyan, url: '/liuyan'}
+    - {title: 关于, description: about, url: '/about'}
+
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 20
+paginate_path: "page/:num/"
+
