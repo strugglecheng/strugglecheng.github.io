@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description>欢迎访问我的博客</description>
-    <link>https://strugglecheng.github.io/</link>
-    <atom:link href="https://strugglecheng.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Aug 2018 04:57:32 +0000</pubDate>
-    <lastBuildDate>Tue, 07 Aug 2018 04:57:32 +0000</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 07 Aug 2018 18:49:37 +0000</pubDate>
+    <lastBuildDate>Tue, 07 Aug 2018 18:49:37 +0000</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -16,8 +16,8 @@
 &lt;p&gt;肯定很开心啊。&lt;/p&gt;
 </description>
         <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
-        <link>https://strugglecheng.github.io/2018/08/%E5%BC%80%E9%80%9A%E5%8D%9A%E5%AE%A2/</link>
-        <guid isPermaLink="true">https://strugglecheng.github.io/2018/08/%E5%BC%80%E9%80%9A%E5%8D%9A%E5%AE%A2/</guid>
+        <link>/2018/08/%E5%BC%80%E9%80%9A%E5%8D%9A%E5%AE%A2/</link>
+        <guid isPermaLink="true">/2018/08/%E5%BC%80%E9%80%9A%E5%8D%9A%E5%AE%A2/</guid>
         
         <category>博客</category>
         
