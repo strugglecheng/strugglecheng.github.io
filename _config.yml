@@ -7,16 +7,6 @@ avatarTitle: cheng
 # 头像里面的描述
 avatarDesc: python/java
 url: 
-# Comment
-comment:
-    provider: duoshuo
-    duoshuo:
-     short_name: strugglecheng
-
-# Social
-social:
-    github: strugglecheng
-
 baidu:
     id: 44dcd6189b9c8523c1eb96a0521fcf34 
 

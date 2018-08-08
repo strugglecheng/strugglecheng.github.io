@@ -5,9 +5,27 @@
     <description>欢迎访问我的博客</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Aug 2018 18:49:37 +0000</pubDate>
-    <lastBuildDate>Tue, 07 Aug 2018 18:49:37 +0000</lastBuildDate>
+    <pubDate>Wed, 08 Aug 2018 00:01:41 +0000</pubDate>
+    <lastBuildDate>Wed, 08 Aug 2018 00:01:41 +0000</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>测试博客</title>
+        <description>&lt;h3 id=&quot;section&quot;&gt;用途:&lt;/h3&gt;
+
+&lt;p&gt;测试。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;测试&lt;/h2&gt;
+&lt;p&gt;简单测试&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+        <link>/2018/08/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/</link>
+        <guid isPermaLink="true">/2018/08/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/</guid>
+        
+        <category>博客</category>
+        
+        
+      </item>
     
       <item>
         <title>开通博客</title>
