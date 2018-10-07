@@ -125,7 +125,7 @@
             </a>
         </div>
         <!-- 头像效果-end -->
-        <h1 class="panel-cover__title panel-title"><a href="/#blog" title="link to homepage for " class="blog-button"></a></h1>
+        <h1 class="panel-cover__title panel-title"><a href="/#blog" title="link to homepage for " class="blog-button">祈祷猫</a></h1>
         
         <hr class="panel-cover__divider" style="height:1px;border:none;border-top:1px solid #555555;"/>
         <p class="panel-cover__description">欢迎访问我的博客</p>
@@ -225,7 +225,39 @@
 
     <h3 id="section">心情:</h3>
 
-<p>肯定很开心啊。</p>
+<p>肯定很开心啊。
+## 问题描述：</p>
+
+<p>当我升级nao机器人后，发现nao连不上官网，加载时间太长
+会出现如下情况：<br />
+<code class="highlighter-rouge">NAO Says: Error 501 System date is wrong could not update application from the store</code><br />
+最后，我查了一下原因，原来是它的系统时间不对。</p>
+
+<p><img src="http://omjh2j5h3.bkt.clouddn.com/nao%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4/2.jpg" width="480" height="220" alt="photos" />
+<img src="http://omjh2j5h3.bkt.clouddn.com/nao%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4/1.jpg" width="480" height="200" alt="photos" />
+<img src="http://omjh2j5h3.bkt.clouddn.com/nao%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4/3.jpg" width="580" height="230" alt="photos" /></p>
+
+<h2 id="section-1">解决方法：</h2>
+
+<p><img src="http://omjh2j5h3.bkt.clouddn.com/nao%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4/4.jpg" width="460" height="200" alt="photos" />
+1. 首先，先把nao连接到你的电脑上（可有线亦可无线）<br />
+2. SSH  nao机器人，要用到<a href="http://rj.baidu.com/soft/detail/15699.html?ald">PUTTY</a>这个软件<br />
+3. 打开后 如图设置：IP地址填nao机器人的IP，port端口默认22，选择ssh，然后点击open，会弹出命令框
+登录的用户名和密码均是nao（如果没改的话），登录之后即可进行相关的linux操作了<br />
+<img src="http://omjh2j5h3.bkt.clouddn.com/nao%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4/5.jpg" width="380" height="230" alt="photos" />按照此种方法登录的是普通用户，目前还没有找到NAO的root用户登录的密码，即目前的权限相对较小
+登录之后，输入命令<code class="highlighter-rouge">su</code>切换到root状态，密码是root，可以对执行文件等进行操作，符合linux的操作习惯
+<img src="http://omjh2j5h3.bkt.clouddn.com/nao%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4/6.jpg" width="380" height="130" alt="photos" />
+4. 进入root模式后输入命令：<code class="highlighter-rouge">rc-update add ntp-client default</code><br />
+5. 运行后退出就可以了：<code class="highlighter-rouge">exit</code><br />
+6. 可以在chro软件端查看nao的本地时间<br />
+<img src="http://omjh2j5h3.bkt.clouddn.com/nao%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4/7.jpg" width="480" height="200" alt="photos" /></p>
+
+<hr />
+<blockquote>
+  <p>总有一天，会有一个人，看你写过的所有状态，读完写的
+所有微博，看你从小到大的所有照片，甚至去别的地方寻找关于你的信息，试着听你听的歌，走你走过的地方，看你喜欢看的书，品尝你总是大呼好吃的东西……只是想弥补上，他迟到的时光。
+<br /></p>
+</blockquote>
 
   </section>
 </article>
