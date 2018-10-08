@@ -5,98 +5,84 @@
     <description>欢迎访问我的博客</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 28 Aug 2018 22:25:42 +0000</pubDate>
-    <lastBuildDate>Tue, 28 Aug 2018 22:25:42 +0000</lastBuildDate>
+    <pubDate>Mon, 08 Oct 2018 02:36:56 +0000</pubDate>
+    <lastBuildDate>Mon, 08 Oct 2018 02:36:56 +0000</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
-        <title>测试博客</title>
-        <description>&lt;h3 id=&quot;section&quot;&gt;用途:&lt;/h3&gt;
+        <title>markdown基本语法</title>
+        <description>&lt;h2 id=&quot;markdown&quot;&gt;markdown优点:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;用markdown语言编写出的东西是纯文本，所有的文本编辑器都能打开&lt;/li&gt;
+  &lt;li&gt;编写文档时只需要加上一些简单的符号就能很好地排版，极大地提高了写作效率&lt;/li&gt;
+  &lt;li&gt;可读性强，即使是用文本编辑器打开来直接阅读也是非常直观明了的&lt;/li&gt;
+  &lt;li&gt;学习成本低，基本语法只需要20分钟左右就能掌握&lt;/li&gt;
+  &lt;li&gt;可以很方便地转换成HTML，PDF等格式&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;测试。&lt;/p&gt;
+&lt;h2 id=&quot;markdown-1&quot;&gt;使用markdown需要注意的事项&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;需要表格啊或者其他复杂格式需求的，最好直接使用word或者其他专业软件&lt;/li&gt;
+  &lt;li&gt;推荐直接使用原生的markdown基本语法，因为扩展的markdown都兼容原生的，原生的语法已经足够满足一般写作需求了&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&quot;section-1&quot;&gt;测试&lt;/h2&gt;
-&lt;p&gt;简单测试 在毕业之后，忙于各种事情，一直没有静下心来写一点东西，上一篇博客还是在5月底的时候，博客闲了，但人儿一直在忙碌，今天我就趁着晚饭后的闲暇时光记录一下我这几个月来所度过的时光(^o^)/~
-&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;section&quot;&gt;基本语法：&lt;/h2&gt;
+&lt;p&gt;#### 标题
+在行首加入 # 符号，后面是内容，#和内容之间有一个空格。#的个数即是标题的级数，最多支持六级标题，级数越高，标题字号越小&lt;/p&gt;
 
-&lt;p&gt;第一件事就是毕业，六月，一个美好而又伤感的季节，之前一直再看着别人毕业，拍照，聚餐，求职…，当自己真正经历这些的时候，一切是那么坦然。时间在不断的推着你往前走，有些时候，有些事情，都是那么的顺其自然。&lt;/p&gt;
+&lt;h4 id=&quot;section-1&quot;&gt;无序列表&lt;/h4&gt;
+&lt;p&gt;加减乘即 +，-，* 都可以，内容和符号之间有一个空格。建议用 - ，因为只需要按一次键盘&lt;/p&gt;
 
-&lt;p&gt;第二件事就是热度永远都是那么高的求职找工作，很庆幸在经过自己一段时间的努力进入到了自己喜欢的公司，做着自己喜欢的事情，与优秀的人在一起工作、学习是件很爽的事情。永远年轻，永远热泪盈眶。&lt;/p&gt;
+&lt;h4 id=&quot;section-2&quot;&gt;有序列表&lt;/h4&gt;
+&lt;p&gt;数字后面加个点，如 1. 空一格后再加内容&lt;/p&gt;
 
-&lt;p&gt;第三件事情就是在工作之前回家呆了半个月。随着自己的成长，离家也越来越远，在家的日子也越来越少。小学在隔壁的村子里，然后到了20公里外的旗里。初中也是在旗里，高中就到了100多公里外的呼和浩特读书，大学跑到了1500公里外的重庆求学，毕业之后到了2000多公里外的深圳做了一位南飘(～￣▽￣)～。所以这半个月也许是未来几年在家里呆的最长的时间了吧，一直很欣赏一句话：当回家成了一种奢侈，才明白成长是一条离家远行的路！远行，是为了离家更近一些。&lt;/p&gt;
+&lt;h4 id=&quot;section-3&quot;&gt;列表嵌套&lt;/h4&gt;
+&lt;p&gt;上一级和下一级之间敲三个空格&lt;/p&gt;
 
-&lt;p&gt;第四件事情就是为大学的班级体做了一个&lt;a href=&quot;http://robotkang.cc/college/&quot;&gt;班级主页和纪念视频&lt;/a&gt;，这是一件很美好也很有意义的事情，也许多少年后，班级里的每一个人都可以在我的网站和纪念视频里找到他自己年少时的影子。不过个人感觉有一点不足的就是没有留下每位同学的个人视频。&lt;/p&gt;
+&lt;h4 id=&quot;section-4&quot;&gt;字体斜体&lt;/h4&gt;
+&lt;p&gt;使用一个 * 号把需要斜体的文字夹起来&lt;/p&gt;
 
-&lt;p&gt;PS：蛋疼的是留言系统又挂了，多说挂了，网易云更贴挂了……接下来也不知道该用什么留言插件了，先放着后来再说吧&lt;/p&gt;
+&lt;h4 id=&quot;section-5&quot;&gt;字体加粗&lt;/h4&gt;
+&lt;p&gt;使用两个 * 号把需要加粗的文字夹起来&lt;/p&gt;
 
-&lt;p&gt;在这个博客里，以后属于技术的文字可能真的会越来越少。但我深深的热爱着技术。但我更想写多一点生活在这里，哪怕很无聊，哪怕是流水账，我希望很多年后的某一天，有个地方可以让我回过头，看看当初的自己。也希望将来的某一天，老朋友进来我跟他一起回味，新朋友进来我跟他一起分享。&lt;/p&gt;
+&lt;h4 id=&quot;section-6&quot;&gt;分割线&lt;/h4&gt;
+&lt;p&gt;不少于三个的 - 即可&lt;/p&gt;
 
-&lt;p&gt;不是放弃追求，而是追求这个年纪眼里的酷。         &lt;br /&gt;
-学老罗引用那句话结尾，永远年轻，永远热泪盈眶。&lt;/p&gt;
+&lt;h4 id=&quot;section-7&quot;&gt;超链接&lt;/h4&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[超链接的名称](超链接的url地址 &quot;超链接的title&quot;)&lt;/code&gt;  &lt;br /&gt;
+超链接的title是鼠标悬浮在超链接上时显示的文字，可以不加&lt;/p&gt;
 
-&lt;hr /&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;男人炫耀的资本不是你现在有多少钱，有多大的权利。而是你经历了什么，越过了多大的坎，跳过了多深的坑照样一身傲气，最后完成了自己的梦想成家立业 。到那时你即使身无分文，出门人家也瞧得起你。人家可能会说，那个男孩当年是个搬砖的，现在一步一步爬成了一个大老板。而你开着保时捷跑在马路上横冲直撞，人家只会说这孩子当初穷的时候不坚持梦想，把自己的礼节、知识全搞丢了，走了错路。虽然有了钱，但也一无所有。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h4 id=&quot;section-8&quot;&gt;图片&lt;/h4&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;![图片底部文字说明](图片地址 &quot;图片的title&quot;)&lt;/code&gt;  &lt;br /&gt;
+图片的title是鼠标悬浮在图片上时显示的文字，可以不加&lt;/p&gt;
 
-&lt;hr /&gt;
-&lt;p&gt;本文由 &lt;a href=&quot;http://robotkang.cc/about/&quot;&gt;KangZhijun&lt;/a&gt; 创作，采用 &lt;a href=&quot;https://creativecommons.org/licenses/by/4.0/&quot;&gt;知识共享署名4.0&lt;/a&gt; 国际许可协议进行许可&lt;br /&gt;
-本站文章除注明转载/出处外，均为本站原创或翻译，转载前请务必署名&lt;br /&gt;
-最后编辑时间为: Aug 01, 2017 at 09:22 pm　&lt;/p&gt;
+&lt;h4 id=&quot;section-9&quot;&gt;代码以及代码块&lt;/h4&gt;
+&lt;p&gt;单行代码用一个反引号夹起来，多行代码用三个反引号夹起来，但是反引号要单独行&lt;/p&gt;
 
+&lt;h4 id=&quot;section-10&quot;&gt;引用&lt;/h4&gt;
+&lt;p&gt;在引用的文字前加大于号，引用可以嵌套，可以加多个 &amp;gt; 号&lt;/p&gt;
+
+&lt;h4 id=&quot;section-11&quot;&gt;需要转义的字符&lt;/h4&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+- \ 反斜杠 
+- ` 反引号 
+- * 星号 
+- _ 下划线 
+- {} 大括号 
+- [] 中括号 
+- () 小括号 
+- # 井号 
+- + 加号 
+- - 减号 
+- . 英文句号 
+- ! 感叹号
+&lt;/code&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
-        <link>/2018/08/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/</link>
-        <guid isPermaLink="true">/2018/08/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/</guid>
+        <link>/2018/08/markdown/</link>
+        <guid isPermaLink="true">/2018/08/markdown/</guid>
         
-        <category>博客</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>开通博客</title>
-        <description>&lt;h3 id=&quot;section&quot;&gt;心情:&lt;/h3&gt;
-
-&lt;p&gt;肯定很开心啊。
-## 问题描述：&lt;/p&gt;
-
-&lt;p&gt;当我升级nao机器人后，发现nao连不上官网，加载时间太长
-会出现如下情况：&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;NAO Says: Error 501 System date is wrong could not update application from the store&lt;/code&gt;&lt;br /&gt;
-最后，我查了一下原因，原来是它的系统时间不对。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://omjh2j5h3.bkt.clouddn.com/nao%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4/2.jpg&quot; width=&quot;480&quot; height=&quot;220&quot; alt=&quot;photos&quot; /&gt;
-&lt;img src=&quot;http://omjh2j5h3.bkt.clouddn.com/nao%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4/1.jpg&quot; width=&quot;480&quot; height=&quot;200&quot; alt=&quot;photos&quot; /&gt;
-&lt;img src=&quot;http://omjh2j5h3.bkt.clouddn.com/nao%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4/3.jpg&quot; width=&quot;580&quot; height=&quot;230&quot; alt=&quot;photos&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;解决方法：&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://omjh2j5h3.bkt.clouddn.com/nao%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4/4.jpg&quot; width=&quot;460&quot; height=&quot;200&quot; alt=&quot;photos&quot; /&gt;
-1. 首先，先把nao连接到你的电脑上（可有线亦可无线）&lt;br /&gt;
-2. SSH  nao机器人，要用到&lt;a href=&quot;http://rj.baidu.com/soft/detail/15699.html?ald&quot;&gt;PUTTY&lt;/a&gt;这个软件&lt;br /&gt;
-3. 打开后 如图设置：IP地址填nao机器人的IP，port端口默认22，选择ssh，然后点击open，会弹出命令框
-登录的用户名和密码均是nao（如果没改的话），登录之后即可进行相关的linux操作了&lt;br /&gt;
-&lt;img src=&quot;http://omjh2j5h3.bkt.clouddn.com/nao%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4/5.jpg&quot; width=&quot;380&quot; height=&quot;230&quot; alt=&quot;photos&quot; /&gt;按照此种方法登录的是普通用户，目前还没有找到NAO的root用户登录的密码，即目前的权限相对较小
-登录之后，输入命令&lt;code class=&quot;highlighter-rouge&quot;&gt;su&lt;/code&gt;切换到root状态，密码是root，可以对执行文件等进行操作，符合linux的操作习惯
-&lt;img src=&quot;http://omjh2j5h3.bkt.clouddn.com/nao%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4/6.jpg&quot; width=&quot;380&quot; height=&quot;130&quot; alt=&quot;photos&quot; /&gt;
-4. 进入root模式后输入命令：&lt;code class=&quot;highlighter-rouge&quot;&gt;rc-update add ntp-client default&lt;/code&gt;&lt;br /&gt;
-5. 运行后退出就可以了：&lt;code class=&quot;highlighter-rouge&quot;&gt;exit&lt;/code&gt;&lt;br /&gt;
-6. 可以在chro软件端查看nao的本地时间&lt;br /&gt;
-&lt;img src=&quot;http://omjh2j5h3.bkt.clouddn.com/nao%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4/7.jpg&quot; width=&quot;480&quot; height=&quot;200&quot; alt=&quot;photos&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;总有一天，会有一个人，看你写过的所有状态，读完写的
-所有微博，看你从小到大的所有照片，甚至去别的地方寻找关于你的信息，试着听你听的歌，走你走过的地方，看你喜欢看的书，品尝你总是大呼好吃的东西……只是想弥补上，他迟到的时光。
-&lt;br /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
-        <link>/2018/08/%E5%BC%80%E9%80%9A%E5%8D%9A%E5%AE%A2/</link>
-        <guid isPermaLink="true">/2018/08/%E5%BC%80%E9%80%9A%E5%8D%9A%E5%AE%A2/</guid>
-        
-        <category>博客</category>
+        <category>markdown</category>
         
         
       </item>
